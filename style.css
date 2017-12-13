@@ -1,0 +1,266 @@
+body {
+  background: #F0F0F0;
+  color: #014E66;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-variant; normal;
+  font-weight: lighter;
+  line-height; auto;
+}
+
+h1 {
+  font-family: 'Prata', serif;
+  font-size: 48px;
+  font-style: normal;
+  font-variant; normal;
+  font-weight: normal;
+  line-height; auto;
+  text-align: center;
+}
+
+h2 {
+  text-align: center;
+  font-family: 'Prata', serif;
+  font-size: 36px;
+  font-style: normal;
+  font-variant; normal;
+  font-weight: normal;
+  line-height; auto;
+  text-align: center;
+}
+
+p {
+  font-size: 20px;
+  text-align: center;
+}
+
+.container {
+  max-width: 1440px;
+  margin: auto;
+  align: center;
+}
+
+#header {
+  background: #FFFFFF;
+  padding: 5px;
+  position: relative;
+  /*height: 60px;*/
+}
+
+#header a {
+  font-family: 'Prata', serif;
+  color: #404040;
+}
+
+#header nav {
+  text-align: right;
+  padding: 7px 0;
+}
+
+#header img {
+  width: 40px;
+}
+
+#headline {
+  background-image: url(assets/cyclists_overlay.png);
+  padding: 50px;
+  height: 400px;
+}
+
+#headline .wrapper {
+  max-width: 750px;
+  margin: auto;
+  padding: 40px;
+  color: #FFF;
+}
+
+#headline .appstores {
+  padding: 0;
+  margin: 0;
+}
+
+#headline ul {
+  display: flex;
+  width: 442px;
+  padding: 0px 0px 0px 235px;
+  list-style: none;
+  justify-content: space-between;
+}
+
+#headline .appstore_apple li {
+  margin: 0px 40px;
+  padding: 0px 0px 0px 50px;
+  width: 0px;
+}
+
+#headline .appstore_google li {
+  margin: 0px 40px;
+  padding: 0px 0px 0px 50px;
+  width: 0px;
+}
+
+#headline img {
+  max-width: 100px;
+  margin: 0px 0px 0px 0px;
+}
+
+.btn {
+  background: #FCBE32;
+  border-radius: 0;
+  box-shadow: 0px 2px 4px 0px #AAAAAA;
+  width: 100%;
+  max-width: 300px;
+  margin: 20px auto 20px auto;
+  display: block;
+  color: #404040;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+#headline .btn {
+}
+
+#benefits {
+  padding: 30px 0;
+}
+
+#benefits h2 {
+  margin-top: 0;
+}
+
+#benefits p {
+  font-size: 16px;
+  max-width: 180px;
+  padding-left: 10px;
+}
+
+#benefits .row {
+  max-width: 800px;
+  margin: 30px auto 0 auto;
+}
+
+#benefits .circle {
+  background: white;
+  border-radius: 50%;
+  width: 200px;
+  height: 200px;
+  padding: 7px;
+  box-shadow: 0px 1px 5px 0px #AAAAAA;
+  margin: auto;
+}
+
+#testimonials {
+  background: white;
+  position: relative;
+  padding: 10px;
+  box-shadow: 0px 0px 0px 2px rgba(230, 230, 230, 0.42);
+}
+
+#testimonials .image {
+  margin: auto;
+  width: 130px;
+  height: 130px;
+  background-image: url(assets/persona1.jpeg);
+  /*background-size: cover;*/
+  background-size: 135%;
+  border-radius: 50%;
+  background-position: 57% 3%;
+}
+
+#testimonials img {
+  width: 100%;
+}
+
+#testimonials .testimonial {
+  max-width: 700px;
+  margin: 40px auto 40px auto;
+}
+
+#testimonials .arrow_left {
+  font-size: 60px;
+  position: absolute;
+  left: 65px;
+  top: 45%;
+}
+
+#testimonials .arrow_right {
+  font-size: 60px;
+  position: absolute;
+  right: 65px;
+  top: 45%;
+}
+
+#testimonials .testimonial .image {
+}
+
+#testimonials .testimonial .image .persona {
+}
+
+#testimonials .testimonial .testimony {
+}
+
+#testimonials .testimonial .testimony p {
+  font-size: 21px;
+  text-align: left;
+}
+
+#newsletter {
+  background: #F0F0F0;
+  padding: 40px 0 ;
+}
+
+#newsletter .wrapper {
+  max-width: 1000px;
+  margin: auto;
+}
+
+#newsletter h2 {
+  margin-bottom: 25px;
+}
+#newsletter input {
+  width: 100%;
+  max-width: 340px;
+  height: 35px;
+  text-align: center;
+  font-size: 13px;
+  margin: 25px auto 0 auto;
+  display: block;
+}
+
+#newsletter p {}
+
+#newsletter .btn {}
+
+#footer {
+  background: #004E66;
+  padding: 15px 10px;
+}
+
+#footer ul {
+  margin: 0;
+  padding: 0;
+}
+
+
+#footer li {
+  display: inline-block;
+  margin: 0 10px;
+}
+
+#footer li a {
+  color: #FFF;
+}
+
+#footer .legal li {
+  padding: 7px 0;
+}
+
+#footer img {
+  max-width: 35px;
+}
+
+#footer .legal {
+  text-align: right;
+}
